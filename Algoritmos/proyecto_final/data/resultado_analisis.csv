@@ -1,0 +1,347 @@
+﻿fecha,red_social,usuario,tema,texto,sentimiento,sentimiento_ia
+2026-05-07,YouTube,user_2674,inteligencia artificial Facebook,"No me gustó, muy básico el contenido",,Negativo
+2026-05-04,YouTube,user_6326,inteligencia artificial Facebook,"Gracias por subir esto, muy útil",,Neutral
+2026-05-05,YouTube,user_5816,inteligencia artificial Facebook,"Excelente video, muy informativo! 👍",,Neutral
+2026-05-05,YouTube,user_7865,inteligencia artificial Facebook,El mejor contenido que he visto sobre este tema,,Neutral
+2026-05-07,YouTube,user_2089,inteligencia artificial Facebook,"Excelente video, muy informativo! 👍",,Neutral
+2026-05-09,YouTube,user_2450,inteligencia artificial Facebook,"No me gustó, muy básico el contenido",,Negativo
+2026-05-04,YouTube,user_6810,inteligencia artificial Facebook,El mejor contenido que he visto sobre este tema,,Neutral
+2026-05-06,YouTube,user_7429,inteligencia artificial Facebook,"Gracias por subir esto, muy útil",,Neutral
+2026-05-08,YouTube,user_6657,inteligencia artificial Facebook,Great explanation! Keep it up!,,Positivo
+2026-05-06,YouTube,user_8893,inteligencia artificial Facebook,Great explanation! Keep it up!,,Positivo
+2026-05-06,YouTube,user_4149,inteligencia artificial Facebook,El mejor contenido que he visto sobre este tema,,Neutral
+2026-05-10,Reddit,u_4335,inteligencia artificial Facebook,"Dato curioso, aunque falta contexto",Neutral,Neutral
+2026-05-10,Reddit,u_3251,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-10,Reddit,u_4898,inteligencia artificial Facebook,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-10,Reddit,u_6510,inteligencia artificial Facebook,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-10,Reddit,u_7011,inteligencia artificial Facebook,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-10,Reddit,u_5383,inteligencia artificial Facebook,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-10,Reddit,u_4978,inteligencia artificial Facebook,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-10,Reddit,u_4336,inteligencia artificial Facebook,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-10,Reddit,u_7102,inteligencia artificial Facebook,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-10,Reddit,u_4207,inteligencia artificial Facebook,Vamos a ver qué opinan los demás,Neutral,Neutral
+2026-05-10,Reddit,u_2979,inteligencia artificial Facebook,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-10,Reddit,u_1824,inteligencia artificial Facebook,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-10,Reddit,u_4238,inteligencia artificial Facebook,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-10,Reddit,u_4668,inteligencia artificial Facebook,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-10,Reddit,u_7947,inteligencia artificial Facebook,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-09,Reddit,u_2094,inteligencia artificial Facebook,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-09,Reddit,u_1371,inteligencia artificial Facebook,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-09,Reddit,u_8477,inteligencia artificial Facebook,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-09,Reddit,u_3528,inteligencia artificial Facebook,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-09,Reddit,u_6685,inteligencia artificial Facebook,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-09,Reddit,u_3169,inteligencia artificial Facebook,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-09,Reddit,u_9625,inteligencia artificial Facebook,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-09,Reddit,u_9031,inteligencia artificial Facebook,"Dato curioso, aunque falta contexto",Neutral,Neutral
+2026-05-09,Reddit,u_7370,inteligencia artificial Facebook,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-09,Reddit,u_7205,inteligencia artificial Facebook,Vamos a ver qué opinan los demás,Neutral,Neutral
+2026-05-09,Reddit,u_8661,inteligencia artificial Facebook,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-09,Reddit,u_4442,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-09,Reddit,u_9158,inteligencia artificial Facebook,Habría que profundizar en este aspecto,Neutral,Neutral
+2026-05-09,Reddit,u_6807,inteligencia artificial Facebook,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-09,Reddit,u_6652,inteligencia artificial Facebook,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-08,Reddit,u_2040,inteligencia artificial Facebook,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-08,Reddit,u_7493,inteligencia artificial Facebook,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-08,Reddit,u_9965,inteligencia artificial Facebook,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-08,Reddit,u_9960,inteligencia artificial Facebook,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-08,Reddit,u_8460,inteligencia artificial Facebook,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-08,Reddit,u_9986,inteligencia artificial Facebook,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-08,Reddit,u_9978,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-08,Reddit,u_7693,inteligencia artificial Facebook,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-08,Reddit,u_9127,inteligencia artificial Facebook,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-08,Reddit,u_8237,inteligencia artificial Facebook,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-08,Reddit,u_9736,inteligencia artificial Facebook,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-08,Reddit,u_8313,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-08,Reddit,u_3648,inteligencia artificial Facebook,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-08,Reddit,u_5591,inteligencia artificial Facebook,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-08,Reddit,u_1504,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-07,Reddit,u_7142,inteligencia artificial Facebook,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-07,Reddit,u_5180,inteligencia artificial Facebook,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-07,Reddit,u_2045,inteligencia artificial Facebook,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-07,Reddit,u_8134,inteligencia artificial Facebook,"Dato curioso, aunque falta contexto",Neutral,Neutral
+2026-05-07,Reddit,u_2692,inteligencia artificial Facebook,"No estoy seguro, necesito investigar más",Neutral,Negativo
+2026-05-07,Reddit,u_1986,inteligencia artificial Facebook,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-07,Reddit,u_5965,inteligencia artificial Facebook,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-07,Reddit,u_2824,inteligencia artificial Facebook,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-07,Reddit,u_6722,inteligencia artificial Facebook,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-07,Reddit,u_7448,inteligencia artificial Facebook,"No estoy seguro, necesito investigar más",Neutral,Negativo
+2026-05-07,Reddit,u_3564,inteligencia artificial Facebook,Habría que profundizar en este aspecto,Neutral,Neutral
+2026-05-07,Reddit,u_4147,inteligencia artificial Facebook,"Dato curioso, aunque falta contexto",Neutral,Neutral
+2026-05-07,Reddit,u_2366,inteligencia artificial Facebook,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-07,Reddit,u_4880,inteligencia artificial Facebook,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-07,Reddit,u_7081,inteligencia artificial Facebook,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-06,Reddit,u_9177,inteligencia artificial Facebook,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-06,Reddit,u_1146,inteligencia artificial Facebook,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-06,Reddit,u_2087,inteligencia artificial Facebook,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-06,Reddit,u_2363,inteligencia artificial Facebook,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-06,Reddit,u_9856,inteligencia artificial Facebook,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-06,Reddit,u_1808,inteligencia artificial Facebook,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-06,Reddit,u_9293,inteligencia artificial Facebook,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-06,Reddit,u_7682,inteligencia artificial Facebook,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-06,Reddit,u_8569,inteligencia artificial Facebook,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-06,Reddit,u_9755,inteligencia artificial Facebook,Vamos a ver qué opinan los demás,Neutral,Neutral
+2026-05-06,Reddit,u_6099,inteligencia artificial Facebook,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-06,Reddit,u_8120,inteligencia artificial Facebook,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-06,Reddit,u_9095,inteligencia artificial Facebook,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-06,Reddit,u_4911,inteligencia artificial Facebook,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-06,Reddit,u_5245,inteligencia artificial Facebook,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-05,Reddit,u_3536,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-05,Reddit,u_7761,inteligencia artificial Facebook,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-05,Reddit,u_9481,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-05,Reddit,u_5250,inteligencia artificial Facebook,"Dato curioso, aunque falta contexto",Neutral,Neutral
+2026-05-05,Reddit,u_3994,inteligencia artificial Facebook,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-05,Reddit,u_6338,inteligencia artificial Facebook,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-05,Reddit,u_7797,inteligencia artificial Facebook,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-05,Reddit,u_6584,inteligencia artificial Facebook,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-05,Reddit,u_7102,inteligencia artificial Facebook,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-05,Reddit,u_2358,inteligencia artificial Facebook,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-05,Reddit,u_9360,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-05,Reddit,u_9834,inteligencia artificial Facebook,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-05,Reddit,u_8972,inteligencia artificial Facebook,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-05,Reddit,u_8783,inteligencia artificial Facebook,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-05,Reddit,u_7213,inteligencia artificial Facebook,"Dato curioso, aunque falta contexto",Neutral,Neutral
+2026-05-04,Reddit,u_9897,inteligencia artificial Facebook,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-04,Reddit,u_3869,inteligencia artificial Facebook,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-04,Reddit,u_3891,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-04,Reddit,u_8688,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-04,Reddit,u_8261,inteligencia artificial Facebook,"Dato curioso, aunque falta contexto",Neutral,Neutral
+2026-05-04,Reddit,u_6181,inteligencia artificial Facebook,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-04,Reddit,u_7128,inteligencia artificial Facebook,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-04,Reddit,u_4113,inteligencia artificial Facebook,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-04,Reddit,u_9136,inteligencia artificial Facebook,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-04,Reddit,u_2986,inteligencia artificial Facebook,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-04,Reddit,u_5606,inteligencia artificial Facebook,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-04,Reddit,u_2629,inteligencia artificial Facebook,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-04,Reddit,u_6530,inteligencia artificial Facebook,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-04,Reddit,u_1123,inteligencia artificial Facebook,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-04,Reddit,u_8058,inteligencia artificial Facebook,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-04,YouTube,user_7924,IA Instagram algoritmo,"No me gustó, muy básico el contenido",,Negativo
+2026-05-03,YouTube,user_3107,IA Instagram algoritmo,"Excelente video, muy informativo! 👍",,Neutral
+2026-05-09,YouTube,user_5317,IA Instagram algoritmo,Qué desperdicio de tiempo,,Neutral
+2026-05-07,YouTube,user_4985,IA Instagram algoritmo,"Gracias por subir esto, muy útil",,Neutral
+2026-05-05,YouTube,user_7929,IA Instagram algoritmo,Great explanation! Keep it up!,,Positivo
+2026-05-10,YouTube,user_4144,IA Instagram algoritmo,"No me gustó, muy básico el contenido",,Negativo
+2026-05-10,YouTube,user_8795,IA Instagram algoritmo,Qué desperdicio de tiempo,,Neutral
+2026-05-04,YouTube,user_4581,IA Instagram algoritmo,Qué desperdicio de tiempo,,Neutral
+2026-05-06,YouTube,user_4760,IA Instagram algoritmo,"Gracias por subir esto, muy útil",,Neutral
+2026-05-08,YouTube,user_8740,IA Instagram algoritmo,"Información incorrecta, deberían corregirlo",,Neutral
+2026-05-10,Reddit,u_5695,IA Instagram algoritmo,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-10,Reddit,u_9255,IA Instagram algoritmo,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-10,Reddit,u_9560,IA Instagram algoritmo,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-10,Reddit,u_2050,IA Instagram algoritmo,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-10,Reddit,u_5576,IA Instagram algoritmo,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-10,Reddit,u_3370,IA Instagram algoritmo,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-10,Reddit,u_8002,IA Instagram algoritmo,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-10,Reddit,u_9676,IA Instagram algoritmo,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-10,Reddit,u_5601,IA Instagram algoritmo,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-10,Reddit,u_9800,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-10,Reddit,u_7947,IA Instagram algoritmo,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-10,Reddit,u_2360,IA Instagram algoritmo,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-10,Reddit,u_5378,IA Instagram algoritmo,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-10,Reddit,u_3768,IA Instagram algoritmo,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-10,Reddit,u_8620,IA Instagram algoritmo,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-09,Reddit,u_9635,IA Instagram algoritmo,"Interesante punto, habría que ver más fuentes",Neutral,Neutral
+2026-05-09,Reddit,u_3625,IA Instagram algoritmo,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-09,Reddit,u_9603,IA Instagram algoritmo,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-09,Reddit,u_9587,IA Instagram algoritmo,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-09,Reddit,u_6840,IA Instagram algoritmo,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-09,Reddit,u_8425,IA Instagram algoritmo,Habría que profundizar en este aspecto,Neutral,Neutral
+2026-05-09,Reddit,u_6912,IA Instagram algoritmo,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-09,Reddit,u_6948,IA Instagram algoritmo,"No estoy seguro, necesito investigar más",Neutral,Negativo
+2026-05-09,Reddit,u_2038,IA Instagram algoritmo,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-09,Reddit,u_2111,IA Instagram algoritmo,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-09,Reddit,u_1514,IA Instagram algoritmo,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-09,Reddit,u_6228,IA Instagram algoritmo,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-09,Reddit,u_6419,IA Instagram algoritmo,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-09,Reddit,u_9376,IA Instagram algoritmo,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-09,Reddit,u_7164,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-08,Reddit,u_8469,IA Instagram algoritmo,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-08,Reddit,u_6649,IA Instagram algoritmo,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-08,Reddit,u_4308,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-08,Reddit,u_2874,IA Instagram algoritmo,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-08,Reddit,u_4418,IA Instagram algoritmo,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-08,Reddit,u_2337,IA Instagram algoritmo,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-08,Reddit,u_4098,IA Instagram algoritmo,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-08,Reddit,u_1909,IA Instagram algoritmo,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-08,Reddit,u_3779,IA Instagram algoritmo,Habría que profundizar en este aspecto,Neutral,Neutral
+2026-05-08,Reddit,u_9459,IA Instagram algoritmo,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-08,Reddit,u_3785,IA Instagram algoritmo,"No estoy seguro, necesito investigar más",Neutral,Negativo
+2026-05-08,Reddit,u_7759,IA Instagram algoritmo,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-08,Reddit,u_7921,IA Instagram algoritmo,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-08,Reddit,u_8736,IA Instagram algoritmo,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-08,Reddit,u_3428,IA Instagram algoritmo,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-07,Reddit,u_7514,IA Instagram algoritmo,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-07,Reddit,u_6898,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-07,Reddit,u_8504,IA Instagram algoritmo,"Interesante punto, habría que ver más fuentes",Neutral,Neutral
+2026-05-07,Reddit,u_3277,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-07,Reddit,u_8347,IA Instagram algoritmo,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-07,Reddit,u_4003,IA Instagram algoritmo,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-07,Reddit,u_6128,IA Instagram algoritmo,Habría que profundizar en este aspecto,Neutral,Neutral
+2026-05-07,Reddit,u_5871,IA Instagram algoritmo,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-07,Reddit,u_5561,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-07,Reddit,u_8025,IA Instagram algoritmo,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-07,Reddit,u_5604,IA Instagram algoritmo,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-07,Reddit,u_3324,IA Instagram algoritmo,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-07,Reddit,u_8748,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-07,Reddit,u_7956,IA Instagram algoritmo,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-07,Reddit,u_9628,IA Instagram algoritmo,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-06,Reddit,u_4187,IA Instagram algoritmo,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-06,Reddit,u_9427,IA Instagram algoritmo,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-06,Reddit,u_5603,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-06,Reddit,u_6595,IA Instagram algoritmo,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-06,Reddit,u_9057,IA Instagram algoritmo,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-06,Reddit,u_5859,IA Instagram algoritmo,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-06,Reddit,u_5578,IA Instagram algoritmo,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-06,Reddit,u_1610,IA Instagram algoritmo,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-06,Reddit,u_7184,IA Instagram algoritmo,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-06,Reddit,u_2535,IA Instagram algoritmo,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-06,Reddit,u_2241,IA Instagram algoritmo,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-06,Reddit,u_7004,IA Instagram algoritmo,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-06,Reddit,u_6768,IA Instagram algoritmo,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-06,Reddit,u_5815,IA Instagram algoritmo,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-06,Reddit,u_4529,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-05,Reddit,u_4455,IA Instagram algoritmo,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-05,Reddit,u_1063,IA Instagram algoritmo,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-05,Reddit,u_2688,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-05,Reddit,u_9326,IA Instagram algoritmo,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-05,Reddit,u_6750,IA Instagram algoritmo,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-05,Reddit,u_9230,IA Instagram algoritmo,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-05,Reddit,u_7695,IA Instagram algoritmo,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-05,Reddit,u_9076,IA Instagram algoritmo,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-05,Reddit,u_5841,IA Instagram algoritmo,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-05,Reddit,u_3279,IA Instagram algoritmo,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-05,Reddit,u_4919,IA Instagram algoritmo,Vamos a ver qué opinan los demás,Neutral,Neutral
+2026-05-05,Reddit,u_5114,IA Instagram algoritmo,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-05,Reddit,u_4339,IA Instagram algoritmo,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-05,Reddit,u_5362,IA Instagram algoritmo,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-05,Reddit,u_1044,IA Instagram algoritmo,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-04,Reddit,u_9144,IA Instagram algoritmo,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-04,Reddit,u_3809,IA Instagram algoritmo,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-04,Reddit,u_4978,IA Instagram algoritmo,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-04,Reddit,u_8008,IA Instagram algoritmo,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-04,Reddit,u_2074,IA Instagram algoritmo,Habría que profundizar en este aspecto,Neutral,Neutral
+2026-05-04,Reddit,u_7592,IA Instagram algoritmo,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-04,Reddit,u_5130,IA Instagram algoritmo,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-04,Reddit,u_9468,IA Instagram algoritmo,Vamos a ver qué opinan los demás,Neutral,Neutral
+2026-05-04,Reddit,u_9589,IA Instagram algoritmo,Habría que profundizar en este aspecto,Neutral,Neutral
+2026-05-04,Reddit,u_4735,IA Instagram algoritmo,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-04,Reddit,u_4250,IA Instagram algoritmo,"Interesante punto, habría que ver más fuentes",Neutral,Neutral
+2026-05-04,Reddit,u_9342,IA Instagram algoritmo,"Dato curioso, aunque falta contexto",Neutral,Neutral
+2026-05-04,Reddit,u_8686,IA Instagram algoritmo,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-04,Reddit,u_3115,IA Instagram algoritmo,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-04,Reddit,u_6313,IA Instagram algoritmo,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-05,YouTube,user_9703,machine learning TikTok,"Excelente video, muy informativo! 👍",,Neutral
+2026-05-08,YouTube,user_3705,machine learning TikTok,"Información incorrecta, deberían corregirlo",,Neutral
+2026-05-05,YouTube,user_3011,machine learning TikTok,"Clickbait, no vale la pena",,Negativo
+2026-05-05,YouTube,user_7932,machine learning TikTok,"Clickbait, no vale la pena",,Negativo
+2026-05-03,YouTube,user_1249,machine learning TikTok,"Gracias por subir esto, muy útil",,Neutral
+2026-05-05,YouTube,user_7765,machine learning TikTok,"Gracias por subir esto, muy útil",,Neutral
+2026-05-09,YouTube,user_4701,machine learning TikTok,"Excelente video, muy informativo! 👍",,Neutral
+2026-05-09,YouTube,user_6257,machine learning TikTok,"Gracias por subir esto, muy útil",,Neutral
+2026-05-04,YouTube,user_7299,machine learning TikTok,"Información incorrecta, deberían corregirlo",,Neutral
+2026-05-09,YouTube,user_6376,machine learning TikTok,El mejor contenido que he visto sobre este tema,,Neutral
+2026-05-10,Reddit,u_2748,machine learning TikTok,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-10,Reddit,u_7878,machine learning TikTok,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-10,Reddit,u_7059,machine learning TikTok,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-10,Reddit,u_8102,machine learning TikTok,Habría que profundizar en este aspecto,Neutral,Neutral
+2026-05-10,Reddit,u_5622,machine learning TikTok,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-10,Reddit,u_9072,machine learning TikTok,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-10,Reddit,u_1247,machine learning TikTok,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-10,Reddit,u_1964,machine learning TikTok,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-10,Reddit,u_7063,machine learning TikTok,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-10,Reddit,u_4201,machine learning TikTok,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-10,Reddit,u_5632,machine learning TikTok,Vamos a ver qué opinan los demás,Neutral,Neutral
+2026-05-10,Reddit,u_2415,machine learning TikTok,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-10,Reddit,u_5733,machine learning TikTok,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-10,Reddit,u_2478,machine learning TikTok,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-10,Reddit,u_2384,machine learning TikTok,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-09,Reddit,u_7972,machine learning TikTok,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-09,Reddit,u_1843,machine learning TikTok,"Interesante punto, habría que ver más fuentes",Neutral,Neutral
+2026-05-09,Reddit,u_5971,machine learning TikTok,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-09,Reddit,u_2704,machine learning TikTok,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-09,Reddit,u_4619,machine learning TikTok,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-09,Reddit,u_3881,machine learning TikTok,Habría que profundizar en este aspecto,Neutral,Neutral
+2026-05-09,Reddit,u_9775,machine learning TikTok,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-09,Reddit,u_8496,machine learning TikTok,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-09,Reddit,u_8098,machine learning TikTok,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-09,Reddit,u_8714,machine learning TikTok,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-09,Reddit,u_9191,machine learning TikTok,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-09,Reddit,u_1992,machine learning TikTok,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-09,Reddit,u_7942,machine learning TikTok,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-09,Reddit,u_1340,machine learning TikTok,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-09,Reddit,u_1945,machine learning TikTok,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-08,Reddit,u_1882,machine learning TikTok,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-08,Reddit,u_9520,machine learning TikTok,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-08,Reddit,u_7588,machine learning TikTok,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-08,Reddit,u_6607,machine learning TikTok,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-08,Reddit,u_6742,machine learning TikTok,"No estoy seguro, necesito investigar más",Neutral,Negativo
+2026-05-08,Reddit,u_2669,machine learning TikTok,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-08,Reddit,u_3744,machine learning TikTok,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-08,Reddit,u_2376,machine learning TikTok,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-08,Reddit,u_6149,machine learning TikTok,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-08,Reddit,u_6742,machine learning TikTok,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-08,Reddit,u_3293,machine learning TikTok,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-08,Reddit,u_2167,machine learning TikTok,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-08,Reddit,u_7428,machine learning TikTok,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-08,Reddit,u_2508,machine learning TikTok,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-08,Reddit,u_8138,machine learning TikTok,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-07,Reddit,u_2591,machine learning TikTok,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-07,Reddit,u_4032,machine learning TikTok,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-07,Reddit,u_4757,machine learning TikTok,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-07,Reddit,u_3538,machine learning TikTok,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-07,Reddit,u_3324,machine learning TikTok,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-07,Reddit,u_9046,machine learning TikTok,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-07,Reddit,u_1473,machine learning TikTok,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-07,Reddit,u_9178,machine learning TikTok,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-07,Reddit,u_4661,machine learning TikTok,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-07,Reddit,u_9670,machine learning TikTok,"Qué pérdida de tiempo, esperaba más",Negativo,Neutral
+2026-05-07,Reddit,u_2083,machine learning TikTok,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-07,Reddit,u_3032,machine learning TikTok,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-07,Reddit,u_5369,machine learning TikTok,Vamos a ver qué opinan los demás,Neutral,Neutral
+2026-05-07,Reddit,u_7470,machine learning TikTok,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-07,Reddit,u_6395,machine learning TikTok,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-06,Reddit,u_5472,machine learning TikTok,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-06,Reddit,u_1813,machine learning TikTok,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-06,Reddit,u_5997,machine learning TikTok,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-06,Reddit,u_2006,machine learning TikTok,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-06,Reddit,u_4987,machine learning TikTok,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-06,Reddit,u_2595,machine learning TikTok,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-06,Reddit,u_9048,machine learning TikTok,"No estoy seguro, necesito investigar más",Neutral,Negativo
+2026-05-06,Reddit,u_4925,machine learning TikTok,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-06,Reddit,u_1814,machine learning TikTok,"Qué bien explicado, gracias por compartir",Positivo,Neutral
+2026-05-06,Reddit,u_8043,machine learning TikTok,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral
+2026-05-06,Reddit,u_9678,machine learning TikTok,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-06,Reddit,u_9386,machine learning TikTok,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-06,Reddit,u_7450,machine learning TikTok,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-06,Reddit,u_1353,machine learning TikTok,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-06,Reddit,u_3900,machine learning TikTok,"Interesante punto, habría que ver más fuentes",Neutral,Neutral
+2026-05-05,Reddit,u_5426,machine learning TikTok,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-05,Reddit,u_9972,machine learning TikTok,"Otra vez con lo mismo, cansan estos posts",Negativo,Neutral
+2026-05-05,Reddit,u_9620,machine learning TikTok,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-05,Reddit,u_1409,machine learning TikTok,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-05,Reddit,u_5235,machine learning TikTok,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-05,Reddit,u_7853,machine learning TikTok,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-05,Reddit,u_7770,machine learning TikTok,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-05,Reddit,u_3348,machine learning TikTok,"Muy recomendable, se nota el trabajo detrás",Positivo,Neutral
+2026-05-05,Reddit,u_1651,machine learning TikTok,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-05,Reddit,u_4343,machine learning TikTok,"Interesante punto, habría que ver más fuentes",Neutral,Neutral
+2026-05-05,Reddit,u_9399,machine learning TikTok,Me encanta cómo abordaron este tema,Positivo,Neutral
+2026-05-05,Reddit,u_8520,machine learning TikTok,"Interesante punto, habría que ver más fuentes",Neutral,Neutral
+2026-05-05,Reddit,u_4213,machine learning TikTok,Bait o mala fe? No aporta nada útil,Negativo,Negativo
+2026-05-05,Reddit,u_3378,machine learning TikTok,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-05,Reddit,u_2028,machine learning TikTok,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-04,Reddit,u_5334,machine learning TikTok,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-04,Reddit,u_7865,machine learning TikTok,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-04,Reddit,u_1293,machine learning TikTok,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-04,Reddit,u_7862,machine learning TikTok,"Totalmente en desacuerdo, argumentos muy débiles",Negativo,Neutral
+2026-05-04,Reddit,u_6324,machine learning TikTok,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-04,Reddit,u_2123,machine learning TikTok,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-04,Reddit,u_1767,machine learning TikTok,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-04,Reddit,u_2551,machine learning TikTok,"Increíble el nivel de detalle, 10/10",Positivo,Neutral
+2026-05-04,Reddit,u_5314,machine learning TikTok,"Desinformación total, deberían verificar fuentes",Negativo,Neutral
+2026-05-04,Reddit,u_5793,machine learning TikTok,"Calidad pésima, no vale la pena leerlo",Negativo,Negativo
+2026-05-04,Reddit,u_6663,machine learning TikTok,"No me gustó para nada, bastante pobre el contenido",Negativo,Negativo
+2026-05-04,Reddit,u_4854,machine learning TikTok,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-04,Reddit,u_1519,machine learning TikTok,"Gran comunidad, siempre aprendo algo nuevo aquí",Positivo,Neutral
+2026-05-04,Reddit,u_1489,machine learning TikTok,"¡Excelente post! Me encantó el análisis, muy completo ",Positivo,Neutral
+2026-05-04,Reddit,u_4366,machine learning TikTok,"Esto es justo lo que necesitaba, muy útil",Positivo,Neutral

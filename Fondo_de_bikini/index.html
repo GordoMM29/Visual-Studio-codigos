@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivina Quién - Novela Visual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="game-screen">
+    <div id="background"></div>
+
+    <div id="game-stats">
+    <span id="preguntas-restantes">Preguntas: 15</span>
+    <span id="sospechosos-restantes">Sospechosos: 15</span>
+    </div>
+
+    <div id="char-left" class="character hidden"></div>
+  <div id="char-right" class="character hidden"></div>
+
+  <div id="dialogue-ui">
+    <div id="speaker-name" class="hidden">Nombre</div>
+    <div id="dialogue-text">...</div>
+  </div>
+</div>
+
+  <div id="game-over" class="hidden">
+    <div id="game-over-box">
+      <div id="game-over-title">¡Fin del juego!</div>
+      <div id="game-over-message">Mensaje</div>
+      <button id="game-over-restart">Reiniciar</button>
+    </div>
+  </div>
+
+ <div id="preguntas-panel">
+  <h3>Interroga a los sospechosos</h3>
+  <div id="preguntas-container"></div>
+  <div id="pista-container">
+    <button id="btn-pista"> Usar Pista (2 disponibles)</button>
+  </div>
+
+    <div id="acusa-container" style="margin-top: 15px; border-top: 2px solid #bdc3c7; padding-top: 15px;">
+    <button id="btn-acusar" style="background-color: #e74c3c; color: white; border: none; padding: 15px 20px; border-radius: 8px; cursor: pointer; font-size: 18px; font-weight: bold; width: 100%; transition: all 0.3s ease;">
+       ACUSAR AL PERSONAJE SELECCIONADO
+    </button>
+    <p style="color: #7f8c8d; font-size: 12px; margin-top: 8px; text-align: center;">
+      (Selecciona un sospechoso de la lista antes de acusar)
+    </p>
+  </div>
+</div>
+
+  <div id="lists-container">
+    <div id="sospechosos-panel" class="panel">
+      <h3>Sospechosos</h3>
+      <div id="sospechosos-list" class="list"></div>
+    </div>
+
+    <div id="descartados-panel" class="panel">
+      <h3>Descartados</h3>
+      <div id="descartados-list" class="list"></div>
+    </div>
+
+    <div id="info-panel" class="panel">
+      <h3>Personaje seleccionado</h3>
+      <div id="info-name" class="info-box">
+        <div class="info-label">Nombre</div>
+        <div id="info-name-value" class="info-text">(elige un sospechoso)</div>
+      </div>
+      <div id="info-color" class="info-box">
+        <div class="info-label">Color</div>
+        <div id="info-color-box" class="info-color-box"></div>
+      </div>
+      <div id="info-image" class="info-box">
+        <div class="info-label">Imagen</div>
+        <div id="info-image-box" class="info-image-box">(próximamente)</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="personajes.js"></script>
+  <script src="gameState.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

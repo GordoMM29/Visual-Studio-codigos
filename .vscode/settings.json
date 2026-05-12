@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "Algoritmos/lib/**/*.jar"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

@@ -1,0 +1,7 @@
+google-api-python-client
+praw
+pandas
+nltk
+matplotlib
+seaborn
+python-dotenv

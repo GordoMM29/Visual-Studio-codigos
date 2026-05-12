@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main_styles.css">
+    <title>eventos</title>
+</head>
+<body>
+    <header class="header">
+            <input type="checkbox" class="header__checkbox" id="open-menu">
+            <label for="open-menu" class="header_open-nav-button" role="button"> &#9776; </label>
+        <nav class="nav__list-first">
+            <ul class="list-first__item">   
+                <li><a href="crear_eventos.html" class="item__button">EVENTOS</a></li>
+                <li><button class="item__button">SETTINGS</button></li>
+                <li><a href="Register.html" class="item__button">REGISTER</a></li>
+                <li><a href="Login.html" class="item__button">EXIT</a></li>
+            </ul>
+        </nav>
+
+        <H1>EVENTOS CIMA</H1>
+
+        <nav class="nav__list-second">
+            <ul class="list-second__item">
+                <li><button class="item__button" onclick="mostrarContenido('facultativos')">Conferencia</button></li>
+                <li><button class="item__button" onclick="mostrarContenido('universitarios')">Taller</button></li>
+                <li><button class="item__button" onclick="mostrarContenido('sociedad')">Seminario</button></li>
+                <li><button class="item__button" onclick="mostrarContenido('totales')">Evento cultural</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__contenido" id="contenido">
+            <h2 class="contenido__title">
+                BIENVENIDO <br> A EVENTOS CIMA <br>
+            </h2>
+        </div>
+    </main>
+    <footer class="footer">
+    </footer>
+<script src="scripts/main.js"></script>
+</body>
+</html>

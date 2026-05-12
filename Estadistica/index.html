@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Compartidas</title>
+    <style>
+        :root {
+            --primary-color: #ff7b54;
+            --secondary-color: #ffb26b;
+            --light-color: #ffd56b;
+            --text-color: #333;
+            --background-color: #f9f9f9;
+            --card-color: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+        
+        .btn:hover {
+            background-color: var(--secondary-color);
+        }
+        
+        .recipe-form {
+            background-color: var(--card-color);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            display: none;
+        }
+        
+        .recipe-form h3 {
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .ingredients-list {
+            margin-bottom: 1rem;
+        }
+        
+        .ingredient-item {
+            display: flex;
+            margin-bottom: 0.5rem;
+        }
+        
+        .ingredient-item input {
+            flex: 1;
+            margin-right: 0.5rem;
+        }
+        
+        .remove-ingredient {
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            padding: 0 0.5rem;
+        }
+        
+        .recipes-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .recipe-card {
+            background-color: var(--card-color);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .recipe-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .recipe-image {
+            height: 200px;
+            background-color: var(--light-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .recipe-content {
+            padding: 1.5rem;
+        }
+        
+        .recipe-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+        
+        .recipe-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+        
+        .recipe-description {
+            margin-bottom: 1rem;
+        }
+        
+        .view-recipe {
+            display: inline-block;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .view-recipe:hover {
+            text-decoration: underline;
+        }
+        
+        .filter-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            position: relative;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 0.8rem 1rem 0.8rem 40px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #777;
+        }
+        
+        .filter-select {
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            background-color: white;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            .recipes-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .filter-bar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .search-box {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recetas Compartidas</h1>
+        <p>Comparte y descubre recetas de cocina de todo el mundo</p>
+    </header>
+    
+    <div class="container">
+        <section class="hero">
+            <h2>Comparte tu pasión por la cocina</h2>
+            <p>Agrega tus recetas favoritas y descubre nuevas ideas culinarias de nuestra comunidad.</p>
+            <button id="showFormBtn" class="btn">Agregar Nueva Receta</button>
+        </section>
+        
+        <section id="recipeForm" class="recipe-form">
+            <h3>Comparte tu receta</h3>
+            <form id="addRecipeForm">
+                <div class="form-group">
+                    <label for="recipeTitle">Título de la receta</label>
+                    <input type="text" id="recipeTitle" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="recipeDescription">Descripción</label>
+                    <textarea id="recipeDescription" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="recipeCategory">Categoría</label>
+                    <select id="recipeCategory" required>
+                        <option value="">Selecciona una categoría</option>
+                        <option value="ensaladas">Ensaladas</option>
+                        <option value="sopas">Sopas y Cremas</option>
+                        <option value="principales">Platos Principales</option>
+                        <option value="postres">Postres</option>
+                        <option value="bebidas">Bebidas</option>
+                        <option value="aperitivos">Aperitivos</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Ingredientes</label>
+                    <div id="ingredientsList" class="ingredients-list">
+                        <div class="ingredient-item">
+                            <input type="text" placeholder="Ingrediente y cantidad" required>
+                            <button type="button" class="remove-ingredient">×</button>
+                        </div>
+                    </div>
+                    <button type="button" id="addIngredient" class="btn" style="background-color: var(--light-color); color: var(--text-color);">Agregar otro ingrediente</button>
+                </div>
+                
+                <div class="form-group">
+                    <label for="recipeInstructions">Instrucciones</label>
+                    <textarea id="recipeInstructions" required placeholder="Describe paso a paso cómo preparar la receta..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="recipeImage">URL de la imagen (opcional)</label>
+                    <input type="url" id="recipeImage" placeholder="https://...">
+                </div>
+                
+                <div class="form-group">
+                    <label for="recipeAuthor">Tu nombre</label>
+                    <input type="text" id="recipeAuthor" required>
+                </div>
+                
+                <button type="submit" class="btn">Publicar Receta</button>
+                <button type="button" id="cancelForm" class="btn" style="background-color: #999; margin-left: 10px;">Cancelar</button>
+            </form>
+        </section>
+        
+        <section class="filter-bar">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="Buscar recetas...">
+            </div>
+            
+            <select id="categoryFilter" class="filter-select">
+                <option value="">Todas las categorías</option>
+                <option value="ensaladas">Ensaladas</option>
+                <option value="sopas">Sopas y Cremas</option>
+                <option value="principales">Platos Principales</option>
+                <option value="postres">Postres</option>
+                <option value="bebidas">Bebidas</option>
+                <option value="aperitivos">Aperitivos</option>
+            </select>
+        </section>
+        
+        <section id="recipesContainer" class="recipes-container">
+            <!-- Las recetas se cargarán aquí dinámicamente -->
+        </section>
+    </div>
+    
+    <footer>
+        <p>© 2023 Recetas Compartidas - Todos pueden cocinar</p>
+    </footer>
+
+    <script>
+        // Datos de ejemplo (en una aplicación real, estos vendrían de una base de datos)
+        let recipes = [
+            {
+                id: 1,
+                title: "Ensalada César",
+                description: "Una clásica ensalada con crotones, queso parmesano y aderezo césar.",
+                category: "ensaladas",
+                ingredients: ["Lechuga romana - 1 unidad", "Crutones - 1 taza", "Queso parmesano - 50g", "Aderezo César - 3 cucharadas"],
+                instructions: "1. Lavar y cortar la lechuga. 2. Mezclar con los crutones. 3. Añadir el aderezo y mezclar. 4. Espolvorear queso parmesano.",
+                image: "",
+                author: "María López",
+                date: "2023-10-15"
+            },
+            {
+                id: 2,
+                title: "Tarta de Chocolate",
+                description: "Deliciosa tarta de chocolate con base de galleta.",
+                category: "postres",
+                ingredients: ["Galletas digestive - 200g", "Mantequilla - 100g", "Chocolate negro - 300g", "Nata para montar - 250ml"],
+                instructions: "1. Triturar las galletas y mezclar con mantequilla derretida. 2. Forrar un molde con la mezcla. 3. Derretir chocolate y mezclar con nata montada. 4. Verter sobre la base y refrigerar 4 horas.",
+                image: "",
+                author: "Carlos Ruiz",
+                date: "2023-10-10"
+            }
+        ];
+
+        // Elementos DOM
+        const showFormBtn = document.getElementById('showFormBtn');
+        const recipeForm = document.getElementById('recipeForm');
+        const cancelForm = document.getElementById('cancelForm');
+        const addRecipeForm = document.getElementById('addRecipeForm');
+        const ingredientsList = document.getElementById('ingredientsList');
+        const addIngredientBtn = document.getElementById('addIngredient');
+        const recipesContainer = document.getElementById('recipesContainer');
+        const searchInput = document.getElementById('searchInput');
+        const categoryFilter = document.getElementById('categoryFilter');
+
+        // Mostrar/ocultar formulario
+        showFormBtn.addEventListener('click', () => {
+            recipeForm.style.display = 'block';
+            window.scrollTo({ top: recipeForm.offsetTop, behavior: 'smooth' });
+        });
+
+        cancelForm.addEventListener('click', () => {
+            recipeForm.style.display = 'none';
+            addRecipeForm.reset();
+            // Restablecer ingredientes a solo uno
+            ingredientsList.innerHTML = `
+                <div class="ingredient-item">
+                    <input type="text" placeholder="Ingrediente y cantidad" required>
+                    <button type="button" class="remove-ingredient">×</button>
+                </div>
+            `;
+            attachRemoveIngredientListeners();
+        });
+
+        // Agregar más campos de ingredientes
+        addIngredientBtn.addEventListener('click', () => {
+            const ingredientItem = document.createElement('div');
+            ingredientItem.classList.add('ingredient-item');
+            ingredientItem.innerHTML = `
+                <input type="text" placeholder="Ingrediente y cantidad" required>
+                <button type="button" class="remove-ingredient">×</button>
+            `;
+            ingredientsList.appendChild(ingredientItem);
+            attachRemoveIngredientListeners();
+        });
+
+        function attachRemoveIngredientListeners() {
+            document.querySelectorAll('.remove-ingredient').forEach(button => {
+                button.addEventListener('click', (e) => {
+                    // Solo eliminar si hay más de un ingrediente
+                    if (document.querySelectorAll('.ingredient-item').length > 1) {
+                        e.target.parentElement.remove();
+                    }
+                });
+            });
+        }
+
+        // Enviar formulario
+        addRecipeForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Recoger los ingredientes
+            const ingredients = [];
+            document.querySelectorAll('.ingredient-item input').forEach(input => {
+                ingredients.push(input.value);
+            });
+            
+            // Crear nueva receta
+            const newRecipe = {
+                id: Date.now(), // ID único basado en timestamp
+                title: document.getElementById('recipeTitle').value,
+                description: document.getElementById('recipeDescription').value,
+                category: document.getElementById('recipeCategory').value,
+                ingredients: ingredients,
+                instructions: document.getElementById('recipeInstructions').value,
+                image: document.getElementById('recipeImage').value,
+                author: document.getElementById('recipeAuthor').value,
+                date: new Date().toISOString().split('T')[0] // Fecha actual en formato YYYY-MM-DD
+            };
+            
+            // Agregar a la lista de recetas
+            recipes.push(newRecipe);
+            
+            // Actualizar la visualización
+            renderRecipes();
+            
+            // Resetear y ocultar formulario
+            addRecipeForm.reset();
+            recipeForm.style.display = 'none';
+            
+            // Restablecer ingredientes a solo uno
+            ingredientsList.innerHTML = `
+                <div class="ingredient-item">
+                    <input type="text" placeholder="Ingrediente y cantidad" required>
+                    <button type="button" class="remove-ingredient">×</button>
+                </div>
+            `;
+            attachRemoveIngredientListeners();
+            
+            alert('¡Receta agregada con éxito!');
+        });
+
+        // Filtrar y buscar recetas
+        searchInput.addEventListener('input', renderRecipes);
+        categoryFilter.addEventListener('change', renderRecipes);
+
+        // Renderizar recetas
+        function renderRecipes() {
+            const searchText = searchInput.value.toLowerCase();
+            const selectedCategory = categoryFilter.value;
+            
+            // Filtrar recetas
+            const filteredRecipes = recipes.filter(recipe => {
+                const matchesSearch = recipe.title.toLowerCase().includes(searchText) || 
+                                    recipe.description.toLowerCase().includes(searchText) ||
+                                    recipe.ingredients.some(ing => ing.toLowerCase().includes(searchText));
+                const matchesCategory = !selectedCategory || recipe.category === selectedCategory;
+                
+                return matchesSearch && matchesCategory;
+            });
+            
+            // Mostrar recetas filtradas
+            recipesContainer.innerHTML = '';
+            
+            if (filteredRecipes.length === 0) {
+                recipesContainer.innerHTML = '<p>No se encontraron recetas que coincidan con tu búsqueda.</p>';
+                return;
+            }
+            
+            filteredRecipes.forEach(recipe => {
+                const recipeCard = document.createElement('div');
+                recipeCard.classList.add('recipe-card');
+                
+                recipeCard.innerHTML = `
+                    <div class="recipe-image">
+                        ${recipe.image ? `<img src="${recipe.image}" alt="${recipe.title}" style="width:100%; height:100%; object-fit:cover;">` : '🍳'}
+                    </div>
+                    <div class="recipe-content">
+                        <h3 class="recipe-title">${recipe.title}</h3>
+                        <div class="recipe-meta">
+                            <span>${recipe.category}</span>
+                            <span>${recipe.date}</span>
+                        </div>
+                        <p class="recipe-description">${recipe.description}</p>
+                        <p><strong>Por:</strong> ${recipe.author}</p>
+                        <a href="#" class="view-recipe" data-id="${recipe.id}">Ver receta completa</a>
+                    </div>
+                `;
+                
+                recipesContainer.appendChild(recipeCard);
+            });
+            
+            // Agregar event listeners para ver recetas completas
+            document.querySelectorAll('.view-recipe').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const recipeId = parseInt(e.target.getAttribute('data-id'));
+                    viewRecipe(recipeId);
+                });
+            });
+        }
+
+        // Ver receta completa
+        function viewRecipe(id) {
+            const recipe = recipes.find(r => r.id === id);
+            if (!recipe) return;
+            
+            // Crear modal para mostrar la receta completa
+            const modal = document.createElement('div');
+            modal.style.position = 'fixed';
+            modal.style.top = '0';
+            modal.style.left = '0';
+            modal.style.width = '100%';
+            modal.style.height = '100%';
+            modal.style.backgroundColor = 'rgba(0,0,0,0.7)';
+            modal.style.display = 'flex';
+            modal.style.justifyContent = 'center';
+            modal.style.alignItems = 'center';
+            modal.style.zIndex = '1000';
+            
+            modal.innerHTML = `
+                <div style="background:white; padding:2rem; border-radius:8px; max-width:600px; width:90%; max-height:90vh; overflow-y:auto;">
+                    <div style="text-align:right;">
+                        <button id="closeModal" style="background:none; border:none; font-size:1.5rem; cursor:pointer;">×</button>
+                    </div>
+                    <h2>${recipe.title}</h2>
+                    <p><strong>Categoría:</strong> ${recipe.category}</p>
+                    <p><strong>Autor:</strong> ${recipe.author}</p>
+                    <p><strong>Fecha:</strong> ${recipe.date}</p>
+                    
+                    <h3>Descripción</h3>
+                    <p>${recipe.description}</p>
+                    
+                    <h3>Ingredientes</h3>
+                    <ul>
+                        ${recipe.ingredients.map(ing => `<li>${ing}</li>`).join('')}
+                    </ul>
+                    
+                    <h3>Instrucciones</h3>
+                    <p>${recipe.instructions}</p>
+                </div>
+            `;
+            
+            document.body.appendChild(modal);
+            
+            // Cerrar modal
+            document.getElementById('closeModal').addEventListener('click', () => {
+                document.body.removeChild(modal);
+            });
+        }
+
+        // Inicializar
+        attachRemoveIngredientListeners();
+        renderRecipes();
+    </script>
+</body>
+</html>
