@@ -36,6 +36,6 @@ def get_youtube_comments(keyword, max_comments_por_video=20):
                     'texto': comment['textDisplay']
                 })
         except Exception as e:
-            print(f"  ⚠️ Error en video {video_id}: {e}")
+            print(f"Error en video {video_id}: {e}")
     
     return pd.DataFrame(all_comments)
